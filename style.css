@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    padding-top: 70px;
+}
+
+.profile {
+    background-color: hsl(0, 0%, 12%);
+    width: 340px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Inter;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 22px;
+    color: white;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.about-jessica {
+    padding-top: 10px;
+    color: white;
+}
+
+.location {
+    padding-top: 5px;
+}
+
+.button {
+    padding-top: 15px;
+}
+
+.available-button {
+    padding-bottom: 10px;
+}
+
+button {
+    width: 250px;
+    height: 38px;
+    font-family: Inter;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+    color: white
+}
+
+@media (max-width: 415px) {
+    .attribution {
+       font-size: 13px;
+    }
+}
